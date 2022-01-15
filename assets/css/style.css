@@ -80,6 +80,23 @@ body {
     padding: 40px 0 20px 0;
 }
 
+.header_main_text_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_main_text_area ul {
+    display: flex;
+    align-items: center;
+}
+
+.header_main_text_area ul li a {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 16px;
+    color: #000;
+}
+
 /* =============== Header css content End =============== */
 /* =============== Banner css content start =============== */
 

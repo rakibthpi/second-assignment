@@ -26,6 +26,11 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .header_main_text_area {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
     .banner_content_right_area img {
         width: 310px;
     }
