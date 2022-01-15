@@ -1,0 +1,32 @@
+@media all and (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+
+    .banner_main_text_area {
+        flex-direction: column-reverse;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .blog_single_main_area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width: 767px) {
+    .feauter_main_text_area {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .blog_single_main_area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner_content_right_area img {
+        width: 310px;
+    }
+}
